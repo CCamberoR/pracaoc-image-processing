@@ -1,0 +1,61 @@
+# Archivos compilados de C++
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Archivos de QMake
+Makefile
+Makefile.*
+*.pro.user
+*.pro.user.*
+
+# Directorio de build
+build-*/
+*-build-*/
+
+# Archivos de Qt
+*.qm
+*.prl
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.moc
+*.rcc
+
+# Archivos de depuración
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Archivos temporales
+*~
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# Archivos del sistema
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.pro.user*
+
+# Logs
+*.log
+
+# Ejecutables
+pracAOC
+pracaoc
